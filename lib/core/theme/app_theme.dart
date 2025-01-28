@@ -7,7 +7,8 @@ final ThemeData appTheme = ThemeData(
   elevatedButtonTheme: ElevatedButtonThemeData(
     style: ButtonStyle(
       foregroundColor: WidgetStatePropertyAll<Color>(ConstantColors.white),
-      backgroundColor: WidgetStatePropertyAll<Color>(ConstantColors.blueColor),
+      backgroundColor:
+          WidgetStatePropertyAll<Color>(ConstantColors.primaryColor),
       shape: WidgetStatePropertyAll<OutlinedBorder>(
         RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(10),
