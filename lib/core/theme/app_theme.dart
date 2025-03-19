@@ -22,7 +22,7 @@ final ThemeData appTheme = ThemeData(
     ),
   ),
   iconTheme: IconThemeData(color: ConstantColors.white),
-  appBarTheme: AppBarTheme(backgroundColor: ConstantColors.secondaryColor),
+  appBarTheme: AppBarTheme(backgroundColor: ConstantColors.white),
   textTheme: TextTheme(
     displayLarge: GoogleFonts.archivo(
       decoration: TextDecoration.none,
